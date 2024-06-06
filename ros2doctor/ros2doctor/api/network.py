@@ -41,13 +41,16 @@ class InterfaceFlags:
 
         ('PROMISC', 8),
         ('ALLMULTI', 9),
-        ('MASTER', 10),
-        ('SLAVE', 11),
+        # ('MASTER', 10),
+        # ('SLAVE', 11),
 
-        ('MULTICAST', 12),
-        ('PORTSEL', 13),
-        ('AUTOMEDIA', 14),
-        ('DYNAMIC', 15),
+        # ('MULTICAST', 12),
+        # ('PORTSEL', 13),
+        # ('AUTOMEDIA', 14),
+        # ('DYNAMIC', 15),
+
+        # darwin (MacOSX14.4.sdk)
+        ('MULTICAST', 15),
     )
 
     def __init__(self, interface_name):
